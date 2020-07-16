@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: yg/gh-box@v1.0.2
+        uses: iaurg/gh-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: e24ac0acfb8687f009396873aabc1225
